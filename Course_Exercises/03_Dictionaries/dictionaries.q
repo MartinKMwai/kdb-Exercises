@@ -46,7 +46,7 @@ value rain2013;
 rain2013>rain2012;
 
 /Find the average rainfall over the two years for the UK
-(sum value (+[rain2012;rain2013]))%2
+(sum value (+[rain2012;rain2013]))%2;
 
 //5. Create a dictionary containing all rthe variables in the workspace as keys, and their values as the values of the dict
 
