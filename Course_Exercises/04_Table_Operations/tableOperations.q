@@ -24,7 +24,7 @@ lasttrade:([sym:`$()];side:(); size:`int$();price:`float$());
 
 
 //5. Add a row each time, containing data to trade.
-`trade insert (`MSFT;`B;500;60);
+`trade insert (`MSFT;`B;500;60f);
 `trade insert (`IBM;`S;1700;88f);
 `trade insert (`AAPL;`S;180;66f);
 
@@ -61,7 +61,7 @@ trader:([]item:`sodabread`bacon`mushrooms`eggs`tomatoes;brand:`frysareus`proksto
 2!`trader;
 
 /Create a new table, totalorders, which has the sum of both orders from the traders-drop the PricePerUnit column from each table first
-totalorders:pj[delete priceperunit from trader;2!(delete priceperunit from stock)]; //RHS table must be keyed.
+totalorders:pj[delete priceperunit from trader;delete priceperunit from stock]; //RHS table must be keyed.
 
 /They can both reduce the prices to be 75% of the original price by ordering together. Create a list, newprices
 newprices:0.75*(exec priceperunit from stock);

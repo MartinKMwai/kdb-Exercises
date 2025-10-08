@@ -50,8 +50,8 @@ day:2011.01.10 mod 7; //gives 2, which means it was a Monday
 
 
 
-//9. Show all rthe variables defined in the current q session
-\v;
+//9. Show all the variables defined in the current q session
+\v
 
 //10. Close the current session
 / \\ (use two backticks)

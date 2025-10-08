@@ -33,10 +33,10 @@ max list1;
 avg list1;
 
 /find the number at index 10 in list1
-list1[10]
+list1[10];
 
 /find the 20th number in list1
-list1[19]
+list1[19];
 
 /Are any of the following numbers (3 5 7 11 13 17) in the list?
 3 5 7 11 13 17 in list1; //return a boolean list
