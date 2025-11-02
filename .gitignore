@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Q files (your specific files)
+**/fakedb.q
+**/makedb.q
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+EOF
