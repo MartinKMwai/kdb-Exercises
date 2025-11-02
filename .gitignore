@@ -1,22 +1,28 @@
-# IDE
+# Development
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# Q/KDB+ specific
+**/fakedb.q
+**/makedb.q
+*.q.j
+*.q.k
+*.q.tmp
+
+# Data files (common extensions in financial databases)
+*.hdb
+*.rdb
+*.kdb
+*.qdb
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+temp/
+
 # OS
 .DS_Store
 Thumbs.db
-
-# Q files (your specific files)
-**/fakedb.q
-**/makedb.q
-
-# Logs
-*.log
-logs/
-
-# Temporary files
-*.tmp
-*.temp
-EOF
