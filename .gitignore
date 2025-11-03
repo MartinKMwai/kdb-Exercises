@@ -7,6 +7,10 @@
 # Q/KDB+ specific
 **/fakedb.q
 **/makedb.q
+**/test.q
+**/testin.q
+**/school.q
+**/dbmaint.q
 *.q.j
 *.q.k
 *.q.tmp
